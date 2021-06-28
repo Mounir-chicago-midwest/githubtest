@@ -1,4 +1,4 @@
-from githubtest/webapp
+from githubtest/Dockerfile/webapp
 ADD website /var/www/html
 RUN rm /var/www/html/index.html
 CMD apachectl -D FOREGROUND
